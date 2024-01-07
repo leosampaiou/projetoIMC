@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:wght@400;700&display=swap');
+
+:root {
+    --primery-color: rgb(13, 106, 134);
+    --primery-color-dark: rgb(4, 36, 46);
+}
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--primery-color);
+    font-family: 'open sans', sans-serif;
+    font-size: 1.2em;
+    line-height: 1.3em;
+}
+
+.conteiner {
+    max-width: 640px;
+    margin-bottom: 100px;
+    margin: 40px auto;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+table {
+    display: table;
+    width: 100%;
+    font-size: 0.8em;
+    text-align: center;
+    border-radius: 25px;
+    background-color: rgb(198, 234, 243);
+}
+
+table th {
+    background-color: rgb(91, 206, 241);
+}
+
+table tr td,
+th {
+    border-bottom: 1px solid var(--primery-color-dark);
+}
+
+
+form input,
+form label,
+form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+form input {
+    font-size: 24px;
+    height: 50px;
+    padding: 0 20px;
+    -moz-appearance: textfield;
+}
+
+form input:focus {
+    outline: 1px solid var(--primery-color);
+}
+
+
+
+form button {
+    border: none;
+    background-color: var(--primery-color);
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+form button:hover {
+    background-color: var(--primery-color-dark);
+}
+
+section div {
+    size: 1px;
+}
+
+
+p.verde {
+    background-color: rgb(76, 241, 76);
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+p.amarelo {
+    background-color: rgb(255, 252, 86);
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px 10px;
+
+}
+
+p.vermelho {
+    background-color: rgb(250, 69, 69);
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px 10px;
+    font-size: 1.3em;
+}

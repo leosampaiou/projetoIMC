@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC- Calculo Índice de Massa Corpórea</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <section class="conteiner">
+        <h1>Tabela IMC.</h1>
+        <table class="Tabela">
+            <th colspan="3">VEJA A INTERPRETAÇÃO DO IMC</th>
+            <tr>
+                <td>IMC</td>
+                <td>Classificação</td>
+                <td>Obesidade(grau)</td>
+            </tr>
+            <tr>
+                <td>MENOR QUE 18,5</td>
+                <td>MAGREZA</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>ENTRE 18,5 E 24,9</td>
+                <td>NORMAL</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>ENTRE 25,0 E 29,9</td>
+                <td>SOBREPESO</td>
+                <td>I</td>
+            </tr>
+
+            <tr>
+                <td>ENTRE 30,0 E 39,9</td>
+                <td>OBESIDADE</td>
+                <td>II</td>
+            </tr>
+
+            <tr>
+                <td>MAIOR QUE 40,0 </td>
+                <td>OBESIDADE GRAVE </td>
+                <td>III</td>
+            </tr>
+        </table>
+        <form action="" class="formulario">
+            <label for="">Peso<input class="Peso" type="text" placeholder="Em KG" step="0.01"></label>
+            <label for="">Altura<input class="Altura" type="text" placeholder="Em Cm" step="0.01"></label>
+            <button type="submit">Calcular</button>
+        </form>
+        <script src=" ./assets/js/script.js"></script>
+</body>
+
+</html>
